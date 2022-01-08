@@ -8,10 +8,7 @@
     background-color: blue;
 }
 
-.videoFooter__text{
-    /* position: absolute;
-    top: 20%; */
-}
+
 
 .videoFooter__text > p, .videoFooter__text > h3{
     padding-bottom: 8px;
