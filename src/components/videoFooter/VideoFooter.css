@@ -1,0 +1,66 @@
+.videoFooter{
+    position: absolute;
+    bottom: 25%;
+    color: #FFFFFF;
+    margin-left: 40px;
+    width: 100%;
+    /* display: flex; */
+    background-color: blue;
+}
+
+.videoFooter__text{
+    /* position: absolute;
+    top: 20%; */
+}
+
+.videoFooter__text > p, .videoFooter__text > h3{
+    padding-bottom: 8px;
+    margin-bottom: 0px;
+    height:100%
+}
+
+.videoContainer{
+    height: 100%;
+    position: absolute;
+    bottom: 50%;
+}
+
+
+.videoFooter__icon {
+    position: absolute;
+}
+
+.videoFooter__ticker > .ticker{
+    height: fit-content;
+    margin-left: 30px;
+    width: 100%
+}
+
+.videoFooter__ticker p{
+    padding-top: 3.5px;
+}
+
+.videoFooter__record {
+    animation: spinTheRecord infinite 5s linear;
+    height: 50px;
+    filter: invert(1);
+    position: absolute;
+    bottom: 10%;
+    right: 20px;
+}
+
+@keyframes spinTheRecord {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+
+@media screen and (max-width: 468px) {
+    .videoFooter{
+        margin-left: 20px;
+    }
+}
